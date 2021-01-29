@@ -6,9 +6,9 @@
         "1 4 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Naixue/Naixue.js, tag=奈雪",
         "59 23 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行",
         "0 0,1,2 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js, tag=百度贴吧",
-        "5 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js , tag=饿了么",
-        "50 23 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemPea.js , tag=饿了么",
-        "6 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js , tag=美团",
+        "5 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js, tag=饿了么",
+        "50 23 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemPea.js, tag=饿了么",
+        "6 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团",
         "*/30 7-22 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/baidu_speed.js, tag=百度极速",
     ]
 }   
