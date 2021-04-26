@@ -10,7 +10,6 @@
         "6 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js , tag=美团 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/meituan.png",
         "10 0 * * * https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.js , tag=伊利乳品 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/yiLi.png",
         "8 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js , tag=苏宁易购 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/suning.png",
-        "0 9 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js , tag=来客有礼 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/lkyl.png",
         "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js , tag=顺丰速递 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/sfexpress.png",
         "*/30 9-21 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js , tag=中青看点",
         "20 0 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js , tag=中青看点看看赚",
