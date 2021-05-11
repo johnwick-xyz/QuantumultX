@@ -14,6 +14,5 @@
         "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js , tag=顺丰速递 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/sfexpress.png",
         "*/30 8-22 * * * https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js , tag=中青看点 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png",
         "3 8-22/1 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/YOUTH_READ.js , tag=中青自动阅读 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png",
-        "30 0 8-22/2 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hotsearch/hot.js , tag=热门监控",
     ]
 }   
