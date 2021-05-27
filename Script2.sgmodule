@@ -8,4 +8,4 @@
 
 
 [MITM]
-hostname = %INSERT% *.jd.com, *.*.jd.com, *.jingxi.com, *.*.jingxi.com, me-api.jd.com
+hostname = %INSERT% plogin.m.jd.com, home.m.jd.com, *.jd.com, *.*.jd.com, *.jingxi.com, *.*.jingxi.com, me-api.jd.com
