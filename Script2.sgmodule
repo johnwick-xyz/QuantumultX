@@ -10,4 +10,4 @@
 京喜 Token = type=http-request,pattern=^https\:\/\/m\.jingxi\.com\/dreamfactory\/generator\/CollectCurrentElectricity, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
 
 [MITM]
-hostname = %APPEND% *.*.jd.com,*.*.jingxi.com,me-api.jd.com
+hostname = %APPEND% plogin.m.jd.com,home.m.jd.com,*.*.jingxi.com,me-api.jd.com
