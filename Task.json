@@ -16,5 +16,6 @@
         "3 8-22/1 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/YOUTH_READ.js , tag=中青自动阅读 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png",
         "0 30 21 * * 2,4,7 https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/ssq/ssq.js, tag=彩票查询",
         "5 0 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js, tag=华住会 , img-url=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/hzh_tran.png"
+        "0 9-19 * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/ELECV2PJS/PushTask_elecV2p.js, tag=V2P推送任务, img-url=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/ELECV2PJS/144.png"
     ]
 }   
