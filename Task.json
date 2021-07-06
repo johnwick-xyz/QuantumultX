@@ -3,8 +3,6 @@
     "description": "QX Task by johnwick",
     "task": [
         "0 9 8 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js , tag=饿了么-打卡领红包 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png",
-        "59 23 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js , tag=滴滴出行 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png",
-        "40 8,20,9-19/2 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_drink.js, tag=滴滴喝水赚钱zZPiglet, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true",
         "0 0,1,2 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js , tag=百度贴吧 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/baidu.png",
         "5 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js , tag=饿了么 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png",
         "50 23 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemPea.js , tag=饿了么 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png",
