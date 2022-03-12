@@ -16,6 +16,7 @@
         "5 9 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js, tag=华住会 , img-url=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/hzh.png",
         "0 7 * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/ELECV2PJS/PushBoxjsCookie_elecV2p.js, tag=手机boxjs的Cookie自动上传V2p, img-url=https://cdn.jsdelivr.net/gh/sngxpro/QuanX@master/pic/jiejie.png",
         "30 6 * * * https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js, tag=中青看看赚",
-        "1 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=中国电信"
+        "1 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=中国电信",
+        "28 0,8,12,18 * * * https://raw.githubusercontent.com/leafxcy/JavaScript/main/ddgy.js, tag=滴滴果园, enabled=true"
     ]
 }   
