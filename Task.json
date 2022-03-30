@@ -9,7 +9,7 @@
         "6 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js , tag=美团 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/meituan.png",
         "10 0 * * * https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.js , tag=伊利乳品 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/yiLi.png",
         "8 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js , tag=苏宁易购 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/suning.png",
-        "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js , tag=顺丰速递 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/sfexpress.png",
+        "1 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js , tag=顺丰速递 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/sfexpress.png",
         "*/30 9-20 * * * https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js , tag=中青看点 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png",
         "3 8-22/4 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/YOUTH_READ.js , tag=中青自动阅读 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png",
         "0 30 21 * * 2,4,7 https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/ssq/ssq.js, tag=彩票查询",
