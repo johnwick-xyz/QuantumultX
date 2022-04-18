@@ -2,9 +2,7 @@
     "name": "johnwick",
     "description": "QX Task by johnwick",
     "task": [
-        "0 9 8 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js , tag=饿了么-打卡领红包 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png",
         "1 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js , tag=百度贴吧 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/baidu.png",
-        "5 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js , tag=饿了么 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png",
         "50 23 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemPea.js , tag=饿了么 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png",
         "6 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js , tag=美团 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/meituan.png",
         "10 0 * * * https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.js , tag=伊利乳品 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/yiLi.png",
