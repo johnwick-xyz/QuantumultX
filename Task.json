@@ -14,6 +14,6 @@
         "28 0,8,12,18 * * * https://raw.githubusercontent.com/leafxcy/JavaScript/main/ddgy.js, tag=滴滴果园, enabled=true",
         "10 10 * * * https://gitee.com/curtinlv/Curtin/raw/master/Script/c_zjd_help.js, tag=微信小程序赚京豆-瓜分京豆, enabled=true",
         "1 10 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js, tag=饿了么签到, enabled=true",
-        "9 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺签到 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/iQIYI.png"
+        "9 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/iQIYI.png"
     ]
 }   
