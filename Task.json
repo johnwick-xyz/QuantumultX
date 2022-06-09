@@ -15,6 +15,7 @@
         "10 10 * * * https://gitee.com/curtinlv/Curtin/raw/master/Script/c_zjd_help.js, tag=微信小程序赚京豆-瓜分京豆, enabled=true",
         "1 10 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js, tag=饿了么签到, enabled=true",
         "9 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/iQIYI.png",
-        "19 9 * * * https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/baishi/bsly.js, tag=百事乐元"
+        "19 9 * * * https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/baishi/bsly.js, tag=百事乐元",
+        "13 8,12,16,18,20 * * * https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/wangyi/wyyx.js, tag=网易严选"
     ]
 }   
