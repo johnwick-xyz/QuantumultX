@@ -3,20 +3,7 @@
     "description": "QX Task by johnwick",
     "task": [
         "1 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js , tag=百度贴吧 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/baidu.png",
-        "50 23 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemPea.js , tag=饿了么 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png",
-        "6 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js , tag=美团 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/meituan.png",
-        "10 0 * * * https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.js , tag=伊利乳品 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/yiLi.png",
-        "8 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js , tag=苏宁易购 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/suning.png",
         "1 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js , tag=顺丰速递 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/sfexpress.png",
-        "0 30 21 * * 2,4,7 https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/ssq/ssq.js, tag=彩票查询",
         "5 9 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js, tag=华住会 , img-url=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/hzh.png",
-        "1 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=中国电信",
-        "28 0,8,12,18 * * * https://raw.githubusercontent.com/leafxcy/JavaScript/main/ddgy.js, tag=滴滴果园, enabled=true",
-        "10 10 * * * https://gitee.com/curtinlv/Curtin/raw/master/Script/c_zjd_help.js, tag=微信小程序赚京豆-瓜分京豆, enabled=true",
-        "1 10 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js, tag=饿了么签到, enabled=true",
-        "9 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/iQIYI.png",
-        "19 9 * * * https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/baishi/bsly.js, tag=百事乐元",
-        "13 8,12,16,18,20 * * * https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/wangyi/wyyx.js, tag=网易严选",
-        "49 8 * * * https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/shiyantoutiao/sytt.js, tag=十堰头条"
     ]
 }   
