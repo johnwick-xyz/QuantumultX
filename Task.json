@@ -3,7 +3,7 @@
     "description": "QX Task by johnwick",
     "task": [
         "1 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js , tag=百度贴吧 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/baidu.png",
-        "1 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js , tag=顺丰速递 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/sfexpress.png",
-        "5 9 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js, tag=华住会 , img-url=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/hzh.png"     
+        "5 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js , tag=顺丰速递 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/sfexpress.png",
+        "10 9 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js, tag=华住会 , img-url=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/hzh.png"     
     ]
 }   
