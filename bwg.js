@@ -1,5 +1,5 @@
 
-const $ = new Env('瓦工🇯🇵流量')
+const $ = new Env('瓦工IP流量')
 !(async () => {
 	await GetServiceInfo()
 	await $.wait(1500)
@@ -8,8 +8,8 @@ const $ = new Env('瓦工🇯🇵流量')
 	.finally(() => $.done())
 
 function GetServiceInfo() {
-	const apiKey = 'private_Y9wYBztn6XC9tKkUp0FFqy5z'  //瓦工后台去生成apikey 填进去
-	const veid = '1454608'     //VPS ID:
+	const apiKey = ''  //瓦工后台去生成apikey 填进去
+	const veid = ''     //VPS ID:
 	const body = {
 		'veid': veid,
 		'api_key': apiKey,
