@@ -1,0 +1,25 @@
+{
+  "id": "wick.app.sub",
+  "name": "wick应用订阅",
+  "author": "@wick",
+  "icon": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png",
+  "repo": "https://github.com/johnwick-xyz/QuantumultX",
+  "apps": [
+  {
+            "id": "muchong",
+            "name": "小木虫",
+            "keys": ["muchong_headers", "muchong_debug"],
+            "settings": [{
+                "id": "muchong_debug",
+                "name": "开启调试",
+                "val": false,
+                "type": "boolean",
+                "desc": ""
+            }],
+            "author": "@toulanboy",
+            "repo": "https://github.com/toulanboy/scripts/blob/master/muchong",
+            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/muchong.png", "https://raw.githubusercontent.com/Orz-3/task/master/muchong.png"],
+            "script": "https://raw.githubusercontent.com/toulanboy/scripts/master/muchong/muchong.js"
+        }
+  ]
+}
