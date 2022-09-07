@@ -15,7 +15,7 @@
           "name": "瓦工key",
           "val": "",
           "placeholder": "请填写，例如： ",
-          "type": "textarea",
+          "type": "text",
           "autoGrow": true,
           "rows": 1,
           "desc": "请依次填入"
@@ -25,7 +25,7 @@
           "name": "vpsid",
           "val": "",
           "placeholder": "请填写，例如：",
-          "type": "textarea",
+          "type": "text",
           "autoGrow": true,
           "rows": 1,
           "desc": "请依次填入"
