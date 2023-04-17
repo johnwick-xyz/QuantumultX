@@ -7,7 +7,6 @@
         "10 9 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js, tag=华住会签到 , img-url=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/hzh.png",
         "15 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js , tag=美团签到 , img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/meituan.png",
         "20 9,11 * * * https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.mallcoin.task.js, tag=美团买菜币 , img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png",
-        "25 9 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.js , tag=叮咚买菜签到",
         "35 9 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js, tag=B站每日等级任务"
     ]
 }   
