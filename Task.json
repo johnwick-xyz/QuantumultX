@@ -8,6 +8,6 @@
         "20 9,11 * * * https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.mallcoin.task.js, tag=美团买菜币 , img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png",
         "35 9 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js, tag=B站每日等级任务",
         "55 9 * * * https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js, tag=bing签到",
-        "0 10 * * * https://raw.githubusercontent.com/lowking/Scripts/master/pupu/pupuCheckIn.js, tag=朴朴签到"
+        "0 10 * * * https://raw.githubusercontent.com/lowking/Scripts/master/pupu/pupuCheckIn.js, tag=朴朴签到 , img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/pupu.png"
     ]
 }   
