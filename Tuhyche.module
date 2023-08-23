@@ -1,5 +1,5 @@
 #!name=途虎签到-zoo
-#!desc=2023.8.19 途虎优化，小程序直接获取cookie可同时签到app和小程序了，不需要在下载app了！
+#!desc=2023.8.23 途虎优化，小程序直接获取cookie可同时签到app和小程序了，不需要在下载app了！
 
 [Script]
 途虎获取cookie = type=http-request,pattern=https://api.tuhu.cn/User/GetInternalCenterInfo,script-path=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Tuhyche.js,timeout=60,script-update-interval=0,requires-body=0
