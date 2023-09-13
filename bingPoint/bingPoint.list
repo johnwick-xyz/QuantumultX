@@ -1,0 +1,9 @@
+# NAME: BingPoint
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-09-13 
+# HOST-SUFFIX: 2
+# TOTAL: 2
+HOST-SUFFIX,rewards.bing.com,Bing
+HOST-SUFFIX,prod.rewardsplatform.microsoft.com,Bing
+
