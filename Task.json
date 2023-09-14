@@ -14,6 +14,6 @@
         "19 9 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/heytea.js, tag=喜茶GO 签到, img-url=https://raw.githubusercontent.com/Chikit-L/icon/main/heytea.png, enabled=true",
         "21 9 * * * https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js, tag=阿里云盘签到, img-url=https://raw.githubusercontent.com/johnwick-xyz/QuantumultX/main/aliYunPan/aliYunPan.png, enabled=true",
         "29 9 * * * https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js, tag=Bing积分签到",
-        "*/3 12 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/Bing/bingSearch/bingSearch.js, tag=BingSearch"
+        "*/3 12 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/Bing/bingSearch/bingSearch.js, tag=BingSearch, enabled=true"
     ]
 }   
