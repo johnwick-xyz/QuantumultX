@@ -2,6 +2,6 @@
     "name": "johnwick2",
     "description": "QX Task by johnwick2",
     "task": [
-        "31 9 * * * https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js, tag=Bingsaerch"
+        "31 9 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/Bing/bingSearch/bingSearch.js, tag=Bingsaerch"
     ]
 }   
