@@ -2,6 +2,7 @@
     "name": "johnwick2",
     "description": "QX Task by johnwick2",
     "task": [
-        "31 9 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/Bing/bingSearch/bingSearch.js, tag=Bingsaerch"
+        "31 9 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/Bing/bingSearch/bingSearch.js, tag=Bingsaerch",
+        "*/5 * * * * https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010.js tag=联通10010V4"
     ]
 }   
