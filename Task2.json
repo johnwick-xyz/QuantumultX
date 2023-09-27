@@ -3,6 +3,6 @@
     "description": "QX Task by johnwick2",
     "task": [
         "31 9 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/Bing/bingSearch/bingSearch.js, tag=Bingsaerch",
-        "*/5 8-22 * * * https://raw.githubusercontent.com/johnwick-xyz/QuantumultX/main/10010/10010v4.js, tag=联通10010V4"
+        "*/5 8-22 * * * https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010.js?raw=true, tag=联通10010V4"
     ]
 }   
