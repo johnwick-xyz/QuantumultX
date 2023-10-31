@@ -3,6 +3,7 @@
  * 活动入口：建行生活APP -> 首页 -> 会员有礼 -> 签到
  * 脚本说明：连续签到领优惠券礼包（打车、外卖优惠券），配置重写手动签到一次即可获取签到数据，默认领取外卖券，可在 BoxJS 配置奖品。兼容 Node.js 环境，变量名称 JHSH_BODY、JHSH_GIFT、JHSH_LOGIN_INFO，多账号分割符 "|"。
  * 仓库地址：https://github.com/FoKit/Scripts
+ * 更新时间：2023-10-31  修复多账号 Set-Cookie 参数的串号问题
  * 更新时间：2023-10-30  修复 Cokie 失效问题，增加骑行券类型参数，感谢 Sliverkiss、𝘠𝘶𝘩𝘦𝘯𝘨、苍井灰灰 大佬提供帮助。
 /*
 
@@ -84,7 +85,7 @@ if (isGetCookie = typeof $request !== `undefined`) {
       $.msg($.name, '❌ 请先获取建行生活Cookie。');
       return;
     }
-    console.log(`共有[${bodyArr.length}]个建行生活账号\n`);
+    console.log(`\n共有[${bodyArr.length}]个建行生活账号\n`);
     await getLatestVersion();  // 获取版本信息
     for (let i = 0; i < bodyArr.length; i++) {
       if (bodyArr[i]) {
@@ -101,11 +102,11 @@ if (isGetCookie = typeof $request !== `undefined`) {
         $.ALBody = $.info2['Body'];
         console.log(`\n===== 账号[${$.info?.USR_TEL || $.index}]开始签到 =====\n`);
         if (!$.info?.MID || !$.DeviceId || !$.MBCUserAgent || !$.ALBody) {
-          message += `🎉 账号 [${hideSensitiveData($.info?.USR_TEL, 3, 4) || $.index}] 缺少MID参数，请重新获取Cookie。\n`;
+          message += `🎉 账号 [${$.info?.USR_TEL ? hideSensitiveData($.info?.USR_TEL, 3, 4) : $.index}] 缺少参数，请重新获取Cookie。\n`;
           continue;
         }
         await autoLogin();  // 刷新 session
-        // if (!$.token) continue;
+        if (!$.token) continue;
         await main();  // 签到主函数
         if ($.giftList.length > 0) {
           for (let j = 0; j < $.giftList.length; j++) {
@@ -163,16 +164,16 @@ function GetCookie() {
     //   $.setdata(bodyStr, 'JHSH_BODY');
     //   console.log(`用户数据缺失字段，已清空用户数据，请重新获取Cookie。`);
     // }
-    if (bodyStr.indexOf($.body?.MEB_ID) == -1) {
-      $.body['MID'] = $request.headers['MID'] || $request.headers['Mid'] || $request.headers['mid'];
-      $.body = JSON.stringify($.body);
-      console.log(`开始新增用户数据 ${$.body}`);
-      bodyArr.push($.body);
-      $.setdata(bodyArr.join('|'), 'JHSH_BODY');
-      $.msg($.name, ``, `🎉 建行生活签到数据获取成功。`);
-    } else {
-      console.log('数据已存在，不再写入。');
-    }
+    // if (bodyStr.indexOf($.body?.MEB_ID) == -1) {
+    $.body['MID'] = $request.headers['MID'] || $request.headers['Mid'] || $request.headers['mid'];
+    $.body = JSON.stringify($.body);
+    console.log(`开始新增用户数据 ${$.body}`);
+    bodyArr.push($.body);
+    $.setdata(bodyArr.join('|'), 'JHSH_BODY');
+    // } else {
+    //   console.log('数据已存在，不再写入。');
+    // }
+    $.msg($.name, ``, `🎉 建行生活签到数据获取成功。`);
   } else if (/autoLogin/.test($request.url)) {
     $.DeviceId = $request.headers['DeviceId'] || $request.headers['Deviceid'] || $request.headers['deviceid'];
     $.MBCUserAgent = $request.headers['MBC-User-Agent'] || $request.headers['Mbc-user-agent'] || $request.headers['mbc-user-agent'];
@@ -200,6 +201,7 @@ async function autoLogin() {
       'DeviceId': $.DeviceId,
       'Accept': `application/json`,
       'MBC-User-Agent': $.MBCUserAgent,
+      'Cookie': ''
     },
     body: $.ALBody
   }
@@ -214,10 +216,18 @@ async function autoLogin() {
           // $.token = $.getdata('JHSH_TOKEN');
           console.log(`${result?.errMsg}`);
         } else {
-          // $.token = response.headers[`set-cookie`] || response.headers[`Set-cookie`] || response.headers[`Set-Cookie`];
+          const set_cookie = response.headers['set-cookie'] || response.headers['Set-cookie'] || response.headers['Set-Cookie'];
           // !$.isNode() ? $.setdata($.token, 'JHSH_TOKEN') : '';  // 数据持久化
-          console.log(`✅ 刷新 session 成功!`);
-          // debug($.token);
+          let new_cookie = $.toStr(set_cookie).match(/SESSION=([a-f0-9-]+);/);
+          if (new_cookie) {
+            $.token = new_cookie[0];
+            console.log(`✅ 刷新 session 成功!`);
+            debug(new_cookie);
+          } else {
+            message += `❌ 账号 [${$.info?.USR_TEL ? hideSensitiveData($.info?.USR_TEL, 3, 4) : $.index}] 刷新 session 失败，请重新获取Cookie。\n`;
+            console.log(`⛔️ 刷新 session 失败`);
+            debug(set_cookie);
+          }
         }
       } catch (error) {
         $.log(error);
@@ -239,9 +249,10 @@ async function main() {
       "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148/CloudMercWebView/UnionPay/1.0 CCBLoongPay",
       "Accept": "application/json,text/javascript,*/*",
       "content-type": "application/json",
-      // "Cookie": $.token
+      "Cookie": $.token
     },
-    body: `{"ACT_ID":"${$.info.ACT_ID}","MEB_ID":"${$.info.MEB_ID}","USR_TEL":"${$.info.USR_TEL}","REGION_CODE":"${$.info.REGION_CODE}","chnlType":"${$.info.chnlType}","regionCode":"${$.info.regionCode}"}`
+    // body: `{"ACT_ID":"${$.info.ACT_ID}","MEB_ID":"${$.info.MEB_ID}","USR_TEL":"${$.info.USR_TEL}","REGION_CODE":"${$.info.REGION_CODE}","chnlType":"${$.info.chnlType}","regionCode":"${$.info.regionCode}"}`,
+    body: `{"ACT_ID":"${$.info.ACT_ID}","REGION_CODE":"${$.info.REGION_CODE}","chnlType":"${$.info.chnlType}","regionCode":"${$.info.regionCode}"}`
   }
   debug(opt)
   return new Promise(resolve => {
@@ -253,7 +264,7 @@ async function main() {
           data = JSON.parse(data);
           let text = '';
           if (data.errCode == 0) {
-            text = `🎉 账号 [${hideSensitiveData($.info?.USR_TEL, 3, 4) || $.index}] 签到成功`;
+            text = `🎉 账号 [${$.info?.USR_TEL ? hideSensitiveData($.info?.USR_TEL, 3, 4) : $.index}] 签到成功`;
             console.log(text);
             message += text;
             if (data?.data?.IS_AWARD == 1) {
@@ -281,7 +292,7 @@ async function main() {
             }
           } else {
             console.log(JSON.stringify(data));
-            text = `❌ 账号 [${hideSensitiveData($.info?.USR_TEL, 3, 4) || $.index}] 签到失败，${data.errMsg}\n`;
+            text = `❌ 账号 [${$.info?.USR_TEL ? hideSensitiveData($.info?.USR_TEL, 3, 4) : $.index}] 签到失败，${data.errMsg}\n`;
             console.log(text);
             message += text;
           }
@@ -312,9 +323,6 @@ async function getGift() {
   }
   debug(opt);
   return new Promise(resolve => {
-    debug(opt.url);
-    debug(opt.headers);
-    debug(opt.body);
     $.post(opt, async (err, resp, data) => {
       try {
         err && $.log(err);
@@ -392,7 +400,7 @@ function hideSensitiveData(string, head_length = 2, foot_length = 2) {
 
 // DEBUG
 function debug(content) {
-  let text = '\n-----debug-----\n';
+  let text = '\n----- debug -----\n';
   if ($.is_debug === 'true') {
     if (typeof content == "string") {
       console.log(text + content + text);
