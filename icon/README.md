@@ -1,4 +1,4 @@
 地址：
 
 openai:
-https://raw.githubusercontent.com/johnwick-xyz/QuantumultX/main/icon/openai.png
+mg-url=https://raw.githubusercontent.com/johnwick-xyz/QuantumultX/main/icon/openai.png
