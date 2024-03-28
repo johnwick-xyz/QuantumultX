@@ -13,6 +13,7 @@
         "17 9 * * * https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js, tag=高德地图打车签到, img-url=https://raw.githubusercontent.com/johnwick-xyz/QuantumultX/main/ampDache/ampDache.png, enabled=true",
         "21 9,17 * * * https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, tag=阿里云盘签到, img-url=https://raw.githubusercontent.com/johnwick-xyz/QuantumultX/main/aliYunPan/aliYunPan.png, enabled=true",
         "29 9 * * * https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js, tag=Bing积分签到",
-        "20 9 * * * https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/burning.js, tag=超燃汇签到, img-url=https://raw.githubusercontent.com/WowYiJiu/Personal/main/icon/burning.png, enabled=true"
+        "20 9 * * * https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/burning.js, tag=超燃汇签到, img-url=https://raw.githubusercontent.com/WowYiJiu/Personal/main/icon/burning.png, enabled=true",
+        "30 9 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/wechat_pay_coupon.js, tag=微付金币, img-url=https://raw.githubusercontent.com/FoKit/Scripts/main/images/wechat_pay_coupon.png, enabled=true"
     ]
 }   
