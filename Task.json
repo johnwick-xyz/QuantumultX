@@ -15,6 +15,6 @@
         "29 9 * * * https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js, tag=Bing积分签到",
         "20 9 * * * https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/burning.js, tag=超燃汇签到, img-url=https://raw.githubusercontent.com/WowYiJiu/Personal/main/icon/burning.png, enabled=true",
         "30 9 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/wechat_pay_coupon.js, tag=微付金币, img-url=https://raw.githubusercontent.com/FoKit/Scripts/main/images/wechat_pay_coupon.png, enabled=true",
-        "32 9 * * * https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, tag=蜜雪冰城小程序签到、访问雪王铺"
+        "32 9 * * * https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, tag=蜜雪冰城小程序签到、访问雪王铺, img-url=https://raw.githubusercontent.com/sliverkiss/QuantumultX/main/icon/mxbc.png, enabled=true"
     ]
 }   
