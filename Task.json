@@ -18,6 +18,7 @@
         "32 9 * * * https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, tag=蜜雪冰城小程序签到、访问雪王铺, img-url=https://raw.githubusercontent.com/sliverkiss/QuantumultX/main/icon/mxbc.png, enabled=true",
         "31 9 * * * https://raw.githubusercontent.com/leiyiyan/resource/main/script/wdzhsy/wdzhsy.js, tag=万达智慧商业签到, img-url=https://raw.githubusercontent.com/leiyiyan/resource/main/icons/wdzhsy.png, enabled=true",
         "33 9 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/aeon_sign.js, tag=永旺Aeon签到, img-url=https://raw.githubusercontent.com/FoKit/Scripts/main/images/aeon.png, enabled=true",
-        "34 9 * * * https://raw.githubusercontent.com/leiyiyan/resource/main/script/ningji/ningji.js, tag=柠季签到, img-url=https://raw.githubusercontent.com/leiyiyan/resource/main/icons/ningji.png, enabled=true"
+        "34 9 * * * https://raw.githubusercontent.com/leiyiyan/resource/main/script/ningji/ningji.js, tag=柠季签到, img-url=https://raw.githubusercontent.com/leiyiyan/resource/main/icons/ningji.png, enabled=true",
+        "35 9,14 * * * https://raw.githubusercontent.com/leiyiyan/resource/main/script/aliyun_web/aliyun_web.js, tag=阿里云社区日常任务"
     ]
 }   
