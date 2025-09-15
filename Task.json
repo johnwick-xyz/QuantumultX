@@ -2,7 +2,8 @@
     "name": "johnwick",
     "description": "QX Task by johnwick",
     "task": [
-        "1 9 * * * https://raw.githubusercontent.com/leiyiyan/resource/main/script/zeeho/zeeho.js , tag=核极APP签到 , img-url=https://raw.githubusercontent.com/leiyiyan/resource/main/icons/zeeho.png"
+        "1 9 * * * https://raw.githubusercontent.com/leiyiyan/resource/main/script/zeeho/zeeho.js , tag=核极APP签到 , img-url=https://raw.githubusercontent.com/leiyiyan/resource/main/icons/zeeho.png",
+        "2 9 * * * https://raw.githubusercontent.com/evilbutcher/QuantumultX/main/check_in/hzh/hzh.js , tag=华住会APP签到 , img-url=https://raw.githubusercontent.com/evilbutcher/QuantumultX/main/picture/hzh.png" 
         
     ]
 }   
