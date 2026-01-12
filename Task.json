@@ -3,7 +3,8 @@
     "description": "QX Task by johnwick",
     "task": [
         "1 9 * * * https://raw.githubusercontent.com/leiyiyan/resource/main/script/zeeho/zeeho.js , tag=核极APP签到 , img-url=https://raw.githubusercontent.com/leiyiyan/resource/main/icons/zeeho.png",
-        "2 9 * * * https://raw.githubusercontent.com/evilbutcher/QuantumultX/main/check_in/hzh/hzh.js , tag=华住会APP签到 , img-url=https://raw.githubusercontent.com/evilbutcher/QuantumultX/main/picture/hzh.png" 
+        "2 9 * * * https://raw.githubusercontent.com/evilbutcher/QuantumultX/main/check_in/hzh/hzh.js , tag=华住会APP签到 , img-url=https://raw.githubusercontent.com/evilbutcher/QuantumultX/main/picture/hzh.png",
+        "3 9 * * * https://gist.githubusercontent.com/Sliverkiss/250a02315f0a2c99f42da3b3573375c8/raw/xcbwc.js , tag=小蚕霸王餐APP签到"
         
     ]
 }   
